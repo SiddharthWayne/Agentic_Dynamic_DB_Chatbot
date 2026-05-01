@@ -1,0 +1,50 @@
+# ── Secrets ───────────────────────────────────────────────────────────────────
+.env
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# ── Data files (large — never commit raw or cleaned data) ─────────────────────
+*.xlsx
+*.csv
+*.parquet
+
+# ── React / Node (loyalty-insights-hub/) ──────────────────────────────────────
+loyalty-insights-hub/node_modules/
+loyalty-insights-hub/dist/
+loyalty-insights-hub/.next/
+loyalty-insights-hub/build/
+loyalty-insights-hub/.env
+loyalty-insights-hub/.env.local
+loyalty-insights-hub/.env.production
+loyalty-insights-hub/coverage/
+loyalty-insights-hub/.vite/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
