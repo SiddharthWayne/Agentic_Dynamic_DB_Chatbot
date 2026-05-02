@@ -9,6 +9,14 @@ The system thinks, queries, and responds: a clean answer, the exact SQL it ran, 
 
 ---
 
+## 🎥 Demo Video
+
+https://github.com/SiddharthWayne/Agentic_Dynamic_DB_Chatbot/raw/main/demo.mp4
+
+> The video above plays directly in GitHub — shows the full NL → SQL → chart pipeline live.
+
+---
+
 ## The Problem It Solves
 
 Enterprise loyalty data is locked inside relational databases. Getting answers requires a data analyst, a SQL query, a wait, and a spreadsheet. That pipeline is slow, expensive, and creates a bottleneck every time a stakeholder has a question.
